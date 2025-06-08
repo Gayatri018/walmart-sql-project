@@ -69,62 +69,59 @@ Added new fields to enhance analysis:
 Performed analysis using **SQL queries** to answer key business questions across product performance, customer behavior, and branch efficiency.
 
 ---
+📊 Analysis Breakdown
 
-## 📊 Analysis Breakdown
+🛍️ Product Analysis
+How many distinct product lines are there in the dataset?
 
-### 🛍️ Product Analysis
+What is the most common payment method?
 
-* Count of unique product lines
-* Most popular product line and payment method
-* Product lines with highest revenue, VAT, and COGS
-* Product performance categorized into `Good` or `Bad` based on average sales
-* Product preference by **gender** and **branch**
-* Average rating per product line
+What is the most selling product line?
 
-### 💵 Sales Analysis
+What is the total revenue by month?
 
-* Total monthly revenue and best-performing months
-* Product sales by **time of day** and **weekday**
-* Sales and VAT distribution across **cities**
-* Revenue breakdown by **customer type**
+Which month recorded the highest Cost of Goods Sold (COGS)?
 
-### 👥 Customer Analysis
+Which product line generated the highest revenue?
 
-* Customer segmentation (types and payment methods)
-* Highest-spending customer group
-* Gender distribution overall and per branch
-* Ratings distribution by **time of day** and **day of week**
+Which city has the highest revenue?
 
----
+Which product line incurred the highest VAT?
 
-## ❓ Key Business Questions Addressed
+Retrieve each product line and add a column product_category, indicating 'Good' or 'Bad' based on whether its sales are above the average.
 
-* Which city generates the most revenue?
-* Which product line performs best?
-* Which time/day sees the highest sales volume?
-* What is the gender profile of Walmart customers?
-* Which customer type is most profitable?
-* How does sales performance vary across months and branches?
+Which branch sold more products than the average number of products sold?
 
----
+What is the most common product line by gender?
 
-## 🛠️ Tech Stack
+What is the average rating of each product line?
 
-| Layer            | Tools/Technologies            |
-| ---------------- | ----------------------------- |
-| 📥 Data Storage  | MySQL                         |
-| 🧹 Data Cleaning | SQL (via queries and scripts) |
-| 📈 Data Analysis | SQL                           |
-| 📊 Visualization | Excel / Power BI (optional)   |
+💵 Sales Analysis
+Number of sales made in each time of the day per weekday
 
----
+Identify the customer type that generates the highest revenue
 
-## 📌 Conclusion
+Which city has the largest tax percent / VAT (Value Added Tax)?
 
-This SQL-driven project offers a complete breakdown of Walmart's retail performance across branches, products, and customer segments. The insights extracted can guide **marketing, sales strategy, inventory planning**, and **customer retention initiatives**.
+Which customer type pays the most VAT?
 
----
+👥 Customer Analysis
+How many unique customer types does the data have?
 
-Let me know if you want a **Power BI or visualization-ready section** added as well!
+How many unique payment methods does the data have?
 
+Which is the most common customer type?
 
+Which customer type buys the most?
+
+What is the gender of most of the customers?
+
+What is the gender distribution per branch?
+
+Which time of the day do customers give most ratings?
+
+Which time of the day do customers give most ratings per branch?
+
+Which day of the week has the best average ratings?
+
+Which day of the week has the best average ratings per branch?
